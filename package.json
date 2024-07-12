@@ -1,0 +1,15 @@
+{
+  "name": "character.desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "description": "character.ai desktop client",
+  "author": "Colebolebole",
+  "devDependencies": {
+    "electron": "^16.2.8"
+  }
+}
